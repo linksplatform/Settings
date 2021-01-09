@@ -1,0 +1,2 @@
+# Settings
+Solution settings.
