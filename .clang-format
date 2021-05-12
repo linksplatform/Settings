@@ -38,6 +38,24 @@ ContinuationIndentWidth: 4
 IndentCaseLabels: true
 IndentPPDirectives: None
 IndentWidth: 4
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: <[[:alpha:]\/\_]+> # stl include files
+    SortPriority: -4
+
+  - Regex: <Platform.[[:alnum:].]+> # global files of platform
+    SortPriority: -2
+
+  - Regex: "Platform.[[:alnum:].]+" # local files of platform
+    SortPriority: -1
+
+  - Regex: <[[:print:]]+> # other global files
+    SortPriority: -3
+
+  - Regex: "[[:print:]]+" # other files
+    SortPriority: 0
+
+SortIncludes: CaseInsensitive
 KeepEmptyLinesAtTheStartOfBlocks: true
 MaxEmptyLinesToKeep: 2
 NamespaceIndentation: All
