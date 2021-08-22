@@ -1,0 +1,99 @@
+version: 0.1.4.0
+class:
+  summary:
+    template: Represents the {name}.
+    new_line: true
+    include_inheritance: true
+  enabled: true
+  required: true
+interface:
+  summary:
+    template: Defines the {name}.
+    new_line: true
+    include_inheritance: true
+  enabled: true
+  required: true
+constructor:
+  summary:
+    template: Initializes a new {name} instance.
+    new_line: true
+  parameters:
+    enabled: true
+    template: A {name}.
+  exceptions:
+    enabled: true
+  enabled: true
+  required: true
+method:
+  summary:
+    new_line: true
+    static:
+      bool_method: Determines whether {verb}.
+      zero_args_one_word_method: '{verb}.'
+    instance:
+      bool_method: Determines whether this instance {verb}.
+      zero_args_one_word_method: '{verb} this instance.'
+    test_method: Tests that {verb}.
+    many_args_one_word_method: '{verb} the {param1}.'
+    many_args_many_word_method: '{verb} the {object} using the specified {param1}.'
+    default: '{verb} the {object}.'
+  parameters:
+    enabled: true
+    template: The {name}.
+  type_parameters:
+    enabled: true
+    template: The {name}.
+  exceptions:
+    enabled: true
+  returns:
+    enabled: true
+    template: The {name}.
+  enabled: true
+  required: true
+property:
+  summary:
+    template: '{accessors} the {name} value.'
+    new_line: true
+  enabled: true
+  required: true
+enum:
+  summary:
+    template: The {name} enum.
+    new_line: true
+  enabled: true
+  required: true
+enum_member:
+  summary:
+    template: The {name} {enum}.
+    new_line: true
+  enabled: true
+  required: true
+default_member:
+  summary:
+    template: The {name}.
+    new_line: true
+    include_inheritance: true
+  enabled: true
+  required: true
+prefixes_to_remove:
+- _
+suffixes_to_remove:
+- Class
+- Async
+test_attributes:
+- Theory
+- Fact
+- TestMethod
+- Test
+- TestCase
+- DataTestMethod
+verbs:
+  to: returns
+  from: creates
+  as: converts
+  with: adds
+  setup: setup
+  main: main
+aliases:
+  sut: system under test
+
