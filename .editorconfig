@@ -205,6 +205,7 @@ resharper_braces_redundant = true
 resharper_csharp_insert_final_newline = true
 resharper_show_autodetect_configure_formatting_tip = false
 resharper_use_indent_from_vs = false
+resharper_csharp_wrap_lines = false
 
 # ReSharper inspection severities
 resharper_arrange_redundant_parentheses_highlighting = hint
