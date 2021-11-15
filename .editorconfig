@@ -211,6 +211,7 @@ resharper_blank_lines_around_single_line_property = 1
 resharper_csharp_blank_lines_around_single_line_property = 1
 resharper_blank_lines_after_block_statements = 0
 resharper_csharp_keep_blank_lines_in_code = 0
+resharper_wrap_chained_method_calls = chop_if_long
 
 # ReSharper inspection severities
 resharper_arrange_redundant_parentheses_highlighting = hint
