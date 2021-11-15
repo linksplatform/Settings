@@ -16,7 +16,7 @@ dotnet_style_qualification_for_field = false
 dotnet_style_qualification_for_method = false
 dotnet_style_qualification_for_property = false
 
-# Упорядочение Using
+# Упорядочение Using.
 dotnet_separate_import_directive_groups = false
 dotnet_sort_system_directives_first = false
 file_header_template = unset
