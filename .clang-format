@@ -1,4 +1,5 @@
 BasedOnStyle: Microsoft
+Cpp11BracedListStyle: true
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: None
