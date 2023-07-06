@@ -1,7 +1,7 @@
 ---
 Language: Cpp
 BasedOnStyle: google
-ColumnLimit: 3453344
+ColumnLimit: 999999999
 NamespaceIndentation: All
 DerivePointerAlignment: false
 PointerAlignment: Left
