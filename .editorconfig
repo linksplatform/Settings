@@ -235,3 +235,10 @@ resharper_arguments_literal = named
 resharper_arguments_named = named
 resharper_arguments_other = named
 resharper_arguments_string_literal = named
+
+# Line Breaks and Wrapping - Arrangement of Invocations
+resharper_csharp_wrap_after_invocation_lpar = true
+resharper_csharp_wrap_arguments_style = chop_if_long
+resharper_csharp_wrap_before_invocation_rpar = true
+resharper_max_invocation_arguments_on_line = 2
+
