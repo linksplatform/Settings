@@ -228,3 +228,10 @@ resharper_suggest_var_or_type_simple_types_highlighting = hint
 resharper_web_config_module_not_resolved_highlighting = warning
 resharper_web_config_type_not_resolved_highlighting = warning
 resharper_web_config_wrong_module_highlighting = warning
+
+# Named Arguments
+resharper_arguments_anonymous_function = named
+resharper_arguments_literal = named
+resharper_arguments_named = named
+resharper_arguments_other = named
+resharper_arguments_string_literal = named
